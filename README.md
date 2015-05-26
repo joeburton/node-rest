@@ -1,8 +1,8 @@
 =======
-# node-rest
+# Node Rest App
 node/backbone rest application based on Chris Coenraets wine cellar app.
 
-# how to start the MongoDB
+# How to start the MongoDB
 
 cd /usr/local/mongodb
 
@@ -12,6 +12,8 @@ start mongoDB
 start mongo shell
 ./bin/mongo
 
+
+# Mongo notes:
 query database through shell
 db.wines.find().pretty()
 
@@ -26,8 +28,6 @@ db.wines.find({year: "2009”})
 Start App
 ~/Sites/labs/nodecellar
 $ node server.js
-
-http://localhost:3000/index.html
 
 API
 http://localhost:3000/wines/
